@@ -1,0 +1,16 @@
+.header {
+    background: #f8f6f6;
+  }
+  
+  .header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+  }
+  
+  .confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    text-align: center;
+    max-width: 1230px;
+  }
