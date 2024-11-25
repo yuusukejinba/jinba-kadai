@@ -51,8 +51,18 @@ HTML書き込み　確認済み
 
 
 ・ルーティングの設定
-1. index,confirm 設定
-　　index表示,confirm →indexに遷移確認
+1. index設定
+　　index画面表示、情報入力、確認画面→confirm　値送信、表示確認 
+　　
+
+2．confirm設定
+　　confirm　修正→index画面表示遷移確認
+
+
+3．
+・contactsテーブル作成済み
+
+
 
 
 
