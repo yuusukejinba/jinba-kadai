@@ -51,16 +51,21 @@ HTML書き込み　確認済み
 
 
 ・ルーティングの設定
-1. index設定
+1. indexページ設定
 　　index画面表示、情報入力、確認画面→confirm　値送信、表示確認 
 　　
 
-2．confirm設定
+2．confirmページ設定
 　　confirm　修正→index画面表示遷移確認
 
 
-3．
+3.thanksページ設定
+　confirm→thanksページ遷移確認したが
+　storeアクションで　confirm　送信　→エラー
+　
 ・contactsテーブル作成済み
+・categoriesテーブル作成済み
+・userテーブル修正済み
 
 
 
@@ -74,3 +79,5 @@ HTML書き込み　確認済み
 
 ## URL
 - 例) 開発環境：http://localhost/
+　　ユーザ登録：http://localhost/register
+　　ログインページ：http://localhost/login

@@ -11,13 +11,17 @@
 </head>
 
 <body>
- <main>
-  <div class="thanks-form__content" action="/contacts" method="post">
-    <div class="thanks-form__title">
-      <h3>お問い合わせありがとうございました</h3>
+  <main>
+    <div class="thanks-form__content" >
+      <div class="thanks-form__title">
+        <h3>お問い合わせありがとうございました</h3>
+      </div>
+      <form class="form "action="/" method="post">
+      @csrf
+      <div class="form__button" >
+        <button class="form__button-submit" type="submit" >HOME</button>
+      </div>
+    </form>
     </div>
-  </div>
-    <div class="form__button" >
-      <button class="form__button-submit" type="submit">HOME</button>
-    </div>
+  </main>
 </body>

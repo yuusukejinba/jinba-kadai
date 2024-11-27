@@ -22,15 +22,13 @@
       <div class="contact-form__heading">
         <h2>Contact</h2>
       </div>
-      <form class="form" action="/contacts/confirm" method="post" >
-      @csrf
-        <div class="form__group">
-        
-          <div div class="form__group-title"> 
-          
+       <form class="form" action="/contacts/confirm" method="post" >
+         @csrf
+        <div class="form__group">        
+          <div div class="form__group-title">           
              <span class="form__label--item">お名前</span>
              <span class="form__label--required">※</span>
-            </div>
+          </div>
           <div class="form__group-content">
             <div class="form__input--text">
               <input type="text" name="first-name" placeholder="例: 山田 " />
@@ -48,7 +46,7 @@
           </div>
           <div class="form__group-content">
             <div class="form__input--text">
-              <input type="radio" name="gender" placeholder="test@example.com" value="男性" />男性
+              <input type="radio" name="gender" placeholder="test@example.com" value="男性" checked="checked"/>男性
               <input type="radio" name="gender" placeholder="test@example.com" value="女性" />女性
               <input type="radio" name="gender" placeholder="test@example.com" value="その他" />その他
             </div>
@@ -87,8 +85,8 @@
         </div>
         <div class="form__group">
           <div class="form__group-title">
-          <span class="form__label--item">住所</span>
-          <span class="form__label--required">※</span>
+           <span class="form__label--item">住所</span>
+           <span class="form__label--required">※</span>
           </div>
           <div class="form__group-content">
             <div class="form__input--text">
@@ -101,7 +99,7 @@
         </div>
         <div class="form__group">
           <div class="form__group-title">
-          <span class="form__label--item">建物名</span>
+           <span class="form__label--item">建物名</span>
           </div>
           <div class="form__group-content">
             <div class="form__input--text">
@@ -114,8 +112,8 @@
         </div>
         <div class="form__group">
           <div class="form__group-title">
-          <span class="form__label--item">お問い合わせの種類</span>
-          <span class="form__label--required">※</span>
+           <span class="form__label--item">お問い合わせの種類</span>
+           <span class="form__label--required">※</span>
           </div>
           <div class="form__group-content">
             <div class="form__input--textarea">
