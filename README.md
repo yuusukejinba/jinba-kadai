@@ -33,7 +33,7 @@ Laravel Framework 8.83.8
 
 ## URL
 開発環境:http://localhost/  
-お問い合わせフォーム確認ページ:http://localhost/contacts/confirm  
+お問い合わせフォーム確認ページ:http://localhost/confirm  
 サンクスページ:http://localhost/thanks  
 ユーザ登録:http://localhost/register  
 ログインページ:http://localhost/login  
