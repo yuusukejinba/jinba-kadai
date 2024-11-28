@@ -15,22 +15,16 @@ use App\Http\Requests\ContactRequest;
 */
 
 Route::get('/', [ContactController::class, 'index']);
-
 Route::post('/confirm', [ContactController::class, 'confirm']);
 Route::post('/contacts' , [ContactController::class, 'store']);
-
 Route::get('/thanks' , [ContactController::class, 'thanks']);
 Route::post('/thanks' , [ContactController::class, 'thanks']);
 Route::post('/' , [ContactController::class, 'thanks']);
-
-
 Route::get('/register' , [ContactController::class, 'register']);
 Route::post('/register' , [ContactController::class, 'login']);
 Route::get('/login' , [ContactController::class, 'login']);
 Route::post('/register' , [ContactController::class, 'login']);
 Route::post('/login' , [ContactController::class, 'login']);
-
-
 Route::post('/admin' , [ContactController::class, 'login']);
 
 
