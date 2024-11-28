@@ -9,6 +9,12 @@
 1.docker-compose up -d --build  
 2.docker-compose exec php bash:PHPコンテナ内にログイン  
 3.composer install:コンポーズインストール  
+4.php artisan key:generate  
+5.php artisan migrate  
+6.php artisan db:seed  
+7.http://localhostにアクセスして  
+"The stream or file could not be opened"というエラーが発生した場合は  
+ファイルの権限を変更して対応お願いします  
 
 ・.env ファイルの作成  
 1.cp .env.example .env: .env.exampleファイルをコピー  
